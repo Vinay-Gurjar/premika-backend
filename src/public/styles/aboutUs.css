@@ -1,0 +1,96 @@
+.machoAbout-main{
+
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffffc4;
+    justify-content: space-evenly;
+     margin-top: 70px;
+      height: 100vh;
+    
+    
+
+}
+.aboutname{
+    padding-top: 150px;
+
+
+}
+.aboutname h1{
+    font-size: 4.5rem;
+
+}
+.aboutdetails{
+    margin-top: 30px;
+    width: 630px;
+}
+.aboutdetails h6{
+    text-align: justify;
+}
+.locationbox{
+   padding-top: 50px;
+   display: flex;
+   flex-direction: column;
+   gap : 20px;
+   padding-bottom: 50px;
+
+}
+
+.locationbox h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media (max-width: 980px) {
+    .locationbox{
+        padding-left : 40px;
+        padding-right: 40px;
+     }
+    
+    .aboutdetails{
+        width: 650px;
+        padding-left : 40px;
+        padding-right: 40px;
+
+    }
+
+    
+}
+
+
+@media (max-width: 680px) {
+    .locationbox{
+        padding-left : 30px;
+        padding-right: 30px;
+     }
+    
+    .aboutdetails{
+        width: 590px;
+        padding-left : 30px;
+        padding-right: 30px;
+    }
+    
+}
+@media (max-width: 450px) {
+    .aboutdetails{
+        width: 370px;
+        padding-left : 30px;
+        padding-right: 30px;
+    }
+   
+    .locationbox{
+        gap: 10px;
+        margin-bottom: 70px;
+     
+     }
+     .aboutname h1{
+        font-size: 3.5rem;
+    
+    }
+    .locationbox{
+        padding-left : 40px;
+        padding-right: 40px;
+     }
+}

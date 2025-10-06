@@ -1,0 +1,36 @@
+<%
+const navLinks = [
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About Us" },
+    { path: "/contact_us", label: "contact Us" },
+    { path: "/pricing_plan", label: "Pricing Plan" },
+    { path: "/privacy_policy", label: "Privacy Policy" },
+    { path: "/refund_policy", label: "Refund Policy" },
+    { path: "/shipping_policy", label: "Shipping Policy" },
+    { path: "/terms_and_conditions", label: "Terms of Service" },
+    { path: "/child_safety", label: "Child Safety Policy" },
+  ]
+  %>
+
+
+<div class="bottombar-main">
+      <div class="bottombar">
+        <div class="macho">
+          <a to="/" onClick={scrollUp}>
+            <h2>Matcho App: (गे) Gay Dating</h2>
+          </a>
+        </div>
+
+        <div class="navigationbar">
+          <% navLinks.map(({ path, label }) => { %>
+            <a key="<%= path %>" href="<%= path %>" >
+              <%= label %>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+
+      <div class="information">
+        <h5>Alnico Tech Private Limited</h5>
+      </div>
+</div>

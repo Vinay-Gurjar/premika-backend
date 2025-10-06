@@ -1,0 +1,134 @@
+.PrivacyPolicy-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 120px;
+  background-color: #ffffffc4;
+  margin-top: 70px;
+}
+.header-main {
+  width: 800px;
+  height: 100%;
+  padding-top: 190px;
+}
+.header-main p {
+  text-align: justify;
+}
+.header-main h1 {
+  font-size: 2.5rem;
+  padding-bottom: 7px;
+}
+.header-main h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.table-policy {
+  width: 100%;
+  border-collapse: collapse;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.table-policy th,
+td {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 0.9rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+.table-policy tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.privacy-table {
+  width: 100%;
+  border: 1px solid #1c1c1c1c;
+}
+.privacy-table tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.privacy-table th,
+td {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 0.9rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+  font-weight: 450;
+}
+
+.privacy-table ul li {
+  list-style: circle;
+  padding-top: 8px;
+}
+
+.table-policy p {
+  padding-left: 20px;
+}
+.privacy-table {
+  margin: 20px;
+}
+
+.privacy-list li {
+  list-style-type: circle;
+}
+
+.privacy-list p {
+  text-align: justify;
+}
+.page-box {
+  margin-left: 20px;
+}
+.page-box p {
+  font-size: 1rem;
+  font-weight: 350;
+}
+h6 {
+  font-weight: 450;
+}
+@media (max-width: 680px) {
+  .header-main {
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 190px;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+    padding-bottom: 7px;
+  }
+  .header p {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .table-policy th,
+  td {
+    text-align: justify;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 0.65rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+  }
+
+  .table-policy {
+    width: 100%;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+  .privacy-table {
+    width: 100%;
+    margin: 0px;
+  }
+}
