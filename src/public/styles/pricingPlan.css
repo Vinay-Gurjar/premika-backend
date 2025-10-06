@@ -1,0 +1,343 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Plan-top-header {
+  width: 100%;
+  background: linear-gradient(rgba(124, 162, 194, 1), rgba(114, 80, 154, 1));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "Poppins";
+  margin-top: 70px;
+}
+.Plan-top-header::-webkit-scrollbar {
+  display: none;
+}
+.plan-boxs1 {
+  width: 35%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.plan-text {
+  width: 400px;
+  text-align: center;
+}
+.plan-text h1 {
+  font-weight: 750;
+  font-size: 45px;
+}
+.plan-text h5 {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* font-family: Roboto; */
+}
+.plan-background {
+  background-image: url("./q.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position-y: 95px;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  border-radius: 8px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 28, 128, 1),
+    rgba(21, 58, 191, 1)
+  );
+  color: black;
+  gap: 10px;
+  padding: 10px;
+}
+.signup h6 {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.signup::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  padding: 4px;
+  z-index: -1;
+  margin: 3px;
+  color: black;
+  background-color: white;
+}
+.signup button {
+  font-size: 0.8rem;
+  width: 190px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  color: rgba(0, 11, 107, 1);
+  font-weight: 600;
+  padding: 4px;
+  background-color: rgba(249, 215, 131, 1);
+}
+.plan-text h2 {
+  font-size: 2.2rem;
+}
+#plan-boxs2 {
+  width: 65%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+#plan-boxs2::-webkit-scrollbar {
+  display: none;
+}
+.plans {
+  width: 300px;
+  height: 400px;
+  padding: 50px;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  border-radius: 8px;
+  background: linear-gradient(
+    to right,
+    rgba(0, 28, 128, 1),
+    rgba(21, 58, 191, 1)
+  );
+  color: black;
+  gap: 7px;
+  padding: 25px;
+}
+
+.plans::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  z-index: -1;
+  margin: 3.1px;
+  background-color: white;
+}
+.plans.has-tag::after {
+  background-color: rgba(0, 11, 107, 1);
+  color: white;
+}
+.plans h6 {
+  background-color: rgba(169, 178, 255, 1);
+  font-size: 0.7rem;
+  width: 50px;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgba(0, 11, 107, 1);
+}
+.has-tag h1 {
+  margin-top: 0px;
+}
+.plans h1 {
+  margin-top: 0px;
+}
+
+.data-name {
+  font-size: 1rem;
+  width: fit-content;
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+  /* font-family: 'Poppins'; */
+  height: 35px;
+}
+.plans p {
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid #6462628e;
+}
+
+.has-tag p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.data-per {
+  font-weight: 600;
+}
+.plans button {
+  border: none;
+  padding: 8px;
+}
+.has-tag button {
+  border: none;
+  padding: 8px;
+}
+.plans h4 {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 400;
+}
+.has-tag h4 {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 400;
+}
+.plan-boxs3 {
+  display: none;
+  padding-top: 20px;
+}
+.plan-boxs3 h5 {
+  text-align: center;
+}
+.plan-boxs3 h6 {
+  text-align: center;
+}
+
+@media (max-width: 1453px) {
+  .Plan-top-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    overflow-x: none;
+  }
+  .plan-text {
+    padding-top: 20px;
+  }
+  .plan-text h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .payment-text {
+    display: none;
+  }
+  #plan-boxs2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .plan-boxs1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+  }
+  .plan-background {
+    background-image: url("./brush.png");
+    background-position-y: 110px;
+  }
+  .plan-boxs3 {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+}
+@media (max-width: 400px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .Plan-top-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+  }
+  .plan-boxs1 {
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding: 0px;
+    height: auto;
+    overflow: none;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .plan-text h1 {
+    font-size: 2.5rem;
+  }
+  .plan-text h5 {
+    font-size: 1.2rem;
+  }
+  .plan-background {
+    background-image: url("./brush.png");
+    background-position-x: 15px;
+  }
+  #plan-boxs2 {
+    width: auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    overflow: none;
+    height: auto;
+  }
+  .plan-try {
+    width: 350px;
+  }
+
+  .signup button {
+    width: 100px;
+    padding: 0px;
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+
+  .signup h6 {
+    font-size: 0.7rem;
+  }
+
+  .plan-background {
+    background-image: url("./brush.png");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-y: 95px;
+  }
+  .plan-boxs3 {
+    display: block;
+  }
+}

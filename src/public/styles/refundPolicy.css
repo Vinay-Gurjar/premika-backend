@@ -1,0 +1,43 @@
+.Refundpolicy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 120px;
+  margin-top: 70px;
+}
+.header {
+  width: 800px;
+  height: 100%;
+
+  padding-top: 190px;
+}
+.header p {
+  text-align: justify;
+}
+.header h1 {
+  font-size: 2.5rem;
+  padding-bottom: 7px;
+}
+.header h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 680px) {
+  .header {
+    width: 800px;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 190px;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+    padding-bottom: 7px;
+  }
+  .header p {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+}

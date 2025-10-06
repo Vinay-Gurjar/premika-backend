@@ -1,0 +1,68 @@
+#warning-page{
+    display: none;
+}
+
+/* #delete-form{
+   display: none;
+} */
+
+
+
+.main-div{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+form{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.otp-btn{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--font-color);
+    border: 0px;
+}
+
+#submit-btn{
+    color: white;
+    background-color: var(--font-color);
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.btn{
+    color: white;
+    background-color: var(--appPink);
+    height: 40px;
+    width: 100%;
+    min-width: 200px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.input-form{
+    width: 70vw;
+    max-width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gray;
+}
+

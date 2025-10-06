@@ -1,0 +1,60 @@
+.ShippingPolicy-top {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.ShippingPolicy-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.ShippingPolicy-mobile h1 {
+  font-size: 4.3rem;
+  padding-bottom: 80px;
+}
+
+.ShippingPolicy-mobile div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ShippingPolicy-mobile div h3 {
+  padding-bottom: 10px;
+}
+.ShippingPolicy-mobile div h4 {
+  padding-bottom: 20px;
+  font-size: 1.1rem;
+}
+@media (max-width: 1000px) {
+  .ShippingPolicy-mobile {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .ShippingPolicy-mobile h1 {
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+  }
+
+  .ShippingPolicy-mobile div h3 {
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+}
+@media (max-width: 400px) {
+  .ShippingPolicy-mobile div h3 {
+    font-size: 0.6rem;
+  }
+  .ShippingPolicy-mobile div h4 {
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+  }
+}

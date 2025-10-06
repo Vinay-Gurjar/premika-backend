@@ -1,0 +1,50 @@
+{
+  "name": "premika-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "imports": {
+    "#api/v1/controllers/*": "./src/api/v1/controllers/*",
+    "#config/*": "./src/config/*",
+    "#api/v1/helpers/*": "./src/api/v1/helpers/*",
+    "#api/v1/entities/*": "./src/api/v1/entities/*",
+    "#jobs/*": "./src/jobs/*",
+    "#entities/*": "./src/entities/*",
+    "#middlewares/*": "./src/middlewares/*",
+    "#models/*": "./src/models/*",
+    "#routes/*": "./src/routes/*",
+    "#sockets/*": "./src/sockets/*",
+    "#application/*": "./src/application/*",
+    "#utils": "./src/utils.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vinay-gurjar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.899.0",
+    "@techveda/node-dynamodb": "^1.0.9",
+    "@techveda/node-serverjs": "^1.0.2",
+    "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "express-session": "^1.18.2",
+    "firebase-admin": "^13.5.0",
+    "google-auth-library": "^10.2.1",
+    "http-proxy": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "ngeohash": "^0.6.3",
+    "razorpay": "^2.9.6",
+    "redis": "^5.8.1",
+    "short-uuid": "^5.2.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}

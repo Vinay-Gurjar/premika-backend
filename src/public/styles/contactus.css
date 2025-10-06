@@ -1,0 +1,48 @@
+.contact-top {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.mobile-view {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  padding-top: 120px;
+}
+.mobile-view div {
+  width: 100%;
+  height: 100%;
+}
+.mobile-view h1 {
+  font-size: 4rem;
+  padding-bottom: 30px;
+}
+@media (max-width: 1000px) {
+  .mobile-view {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .mobile-view div {
+    height: 60%;
+  }
+  .mobile-view h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .mobile-view {
+    width: 100%;
+    height: 100%;
+  }
+  .mobile-view h1 {
+    font-size: 3.5rem;
+  }
+}
