@@ -148,7 +148,7 @@ export const siginin = async (req, res) => {
     const userJson = getUserJSON(currentUser, token);
     return sendResponse(true, res, userJson, "Successfully login");
   } catch (error) {
-    console.log(error?.message)
+    console.log(error, "SIGN IN ERROR");
     sendResponse(false, res, error, error.message)
   }
 }

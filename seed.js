@@ -10,8 +10,8 @@ initDynamoDB()
 
 const admins = [
     //name should be in lowercase
-    {name: "super admin", email: "super_admin_macho@gmail.com", phone_number: "9999999999", password: "12345678", role: "super_admin", entity: "USER"},
-    {name: "admin", email: "admin_macho@gmail.com", phone_number: "8888888888", password: "12345678", role: "admin", entity: 'USER'},
+    {name: "super admin", email: "super_admin_premika@gmail.com", phone_number: "9999999999", password: "1234567812345678", role: "super_admin", entity: "USER"},
+    {name: "admin", email: "admin_premika@gmail.com", phone_number: "8888888888", password: "1234567812345678", role: "admin", entity: 'USER'},
 ]
 
 const roles = [
