@@ -1,5 +1,5 @@
 import admin from "firebase-admin";
-import  serviceAccount from "../../../../macho-d09f5-firebase-adminsdk-fbsvc-6fddece00b.json" with {type: "json"};
+import  serviceAccount from "../../../../premika-e812d-firebase-adminsdk-fbsvc-18e06e321a.json" with {type: "json"};
 import User from "#models/users.js";
 
 
